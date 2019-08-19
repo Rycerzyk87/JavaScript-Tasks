@@ -16,7 +16,8 @@ const selections = [...document.querySelectorAll('.select img')];
 function playerSelect() {
     game.playerChoice = this.dataset.option
     console.log(game.playerChoice);
-    this.style.boxShadow = '0 0 0 4px brown'
+    selections.forEach(select => select.style.boxShadow = '');
+    this.style.boxShadow = '0 0 0 4px brown';
 
 }
 

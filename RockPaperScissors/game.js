@@ -17,7 +17,7 @@ function playerSelect() {
     game.playerChoice = this.dataset.option
     console.log(game.playerChoice);
     selections.forEach(select => select.style.boxShadow = '');
-    this.style.boxShadow = '0 0 0 4px brown';
+    this.style.boxShadow = '0 0 2px 4px brown';
 
 }
 

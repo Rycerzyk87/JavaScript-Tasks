@@ -10,3 +10,15 @@ img{
     margin: 20px 60px;
     padding: 10px;
 }
+button{
+    margin: 20px;
+    padding: 20px;
+    
+}
+.panel-left{
+    float: left;
+    text-align: left;
+}
+.panel-right{
+    float: right;
+}

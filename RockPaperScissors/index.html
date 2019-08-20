@@ -20,8 +20,19 @@
             <img data-option="nożyce" src="./images/scissors.png" alt="nożyce" title="nożyce">
         </div>
         <button class="start">Rozpocznij grę</button>
-        <div>
-            resultaty etc
+        <div class='panel-left'>
+            <h3>Wynik Gry</h3>
+            <p>Twój wybór: <span data-summary='your-choice'></span></p>
+            <p>Wybór komputera: <pan data-summary="computer-choice"></pan>
+            </p>
+            <h3>Zwycięzca: <span data-summary="who-win"></span></h3>
+        </div>
+        <div class="panel-right">
+            <h3>Tablica wyników</h3>
+            <p class="numbers">Liczba gier:<span>0</span></p>
+            <p class="wins">Wygrane:<span>0</span></p>
+            <p class="losses">Przegrane:<span>0</span></p>
+            <p class="draws">Remisy:<span>0</span></p>
         </div>
     </div>
     <script src="game.js"></script>

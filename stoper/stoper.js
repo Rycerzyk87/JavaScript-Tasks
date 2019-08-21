@@ -25,6 +25,7 @@ const timer = () => {
 const reset = () => {
     time = 0;
     score.textContent = '---';
+    clearInterval(idI);
 }
 btnTime.addEventListener('click', timer);
 btnReset.addEventListener('click', reset);

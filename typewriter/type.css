@@ -4,6 +4,8 @@ body{
     width: 100%;
 }
 p{
+    width: 80%;
+    margin: 5% auto;
     font-family: 'Abril Fatface', cursive;
     font-size: 28px;
     letter-spacing: 2px;

@@ -1,0 +1,11 @@
+body{
+    background-color: darkgreen;
+    height: 100%;
+    width: 100%;
+}
+p{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 28px;
+    letter-spacing: 2px;
+    color: aliceblue;
+}

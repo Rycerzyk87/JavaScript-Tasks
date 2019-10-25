@@ -29,7 +29,7 @@ function checkResult(player, computer) {
 
     if (player === computer) {
         return "draw";
-    } else if ((player === "papier" && computer === "kamień") || (player === "kamień" && computer === "nożyczki") || (player === "nożyczki" && computer === "papier")) {
+    } else if ((player === "papier" && computer === "kamień") || (player === "kamień" && computer === "nożyce") || (player === "nożyce" && computer === "papier")) {
         return "win"
     } else { return "loss" }
 }

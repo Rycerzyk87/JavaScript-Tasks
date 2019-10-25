@@ -25,6 +25,7 @@ button{
 }
 .panel-left{
     width: 301px;
+    height: 180px;
     float: left;
     text-align: left;
     margin-left: 180px;

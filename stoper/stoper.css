@@ -4,13 +4,31 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: tomato;
     background-color: blanchedalmond;
+
 }
 .wrapper{
     text-align: center;
     margin-top: 5%;
+    background-color: blanchedalmond;
+
+}
+.body{
+    margin: 100px auto;
+    height: 230px;
+    width: 30%;
+    background-color: cadetblue;
+    border: 2px solid black;
+    border-radius: 40px;
+}
+.time, p{
+    background-color: cadetblue;
+
 }
 button{
     padding: 5px 10px;
     margin: 10px;
-    border: 1px solid black;    
+    border: 1px solid black;  
+    /* background-color: cadetblue; */
+
+
 }

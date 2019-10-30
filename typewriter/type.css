@@ -1,5 +1,5 @@
 body{
-    background-color: darkgreen;
+    background-color: black;
     height: 100%;
     width: 100%;
 }
@@ -8,6 +8,7 @@ p{
     margin: 5% auto;
     font-family: 'Abril Fatface', cursive;
     font-size: 28px;
-    letter-spacing: 2px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
     color: aliceblue;
 }

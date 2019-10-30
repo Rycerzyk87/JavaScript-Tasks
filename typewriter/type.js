@@ -1,5 +1,5 @@
 const typeText = document.querySelector('.type');
-const text = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, eos tempore rem excepturi eius earum necessitatibus, maiores cum harum nam facilis quidem vitae quae itaque, at beatae. Exercitationem est minima non debitis saepe distinctio quo veritatis laudantium aperiam vitae aliquid accusantium incidunt accusamus nisi porro, totam doloribus obcaecati deserunt! Itaque voluptas quisquam aspernatur soluta.";
+const text = "Wow it's look like some kind of typewriter. It's look amazing. How it is even posible? Some kind of magic or what?! Wow it's look like some kind of typewriter. It's look amazing. How it is even posible? Some kind of magic or what?! ";
 
 let indexText = 0;
 const typewriter = () => {

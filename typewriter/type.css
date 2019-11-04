@@ -6,9 +6,11 @@ body{
 p{
     width: 80%;
     margin: 5% auto;
+    padding: 20px;
     font-family: 'Abril Fatface', cursive;
     font-size: 28px;
     letter-spacing: 2.5px;
     text-transform: uppercase;
     color: aliceblue;
+    border: 2px solid white;
 }

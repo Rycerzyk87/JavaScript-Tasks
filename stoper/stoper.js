@@ -1,7 +1,6 @@
 const btnTime = document.querySelector('.main');
 const btnReset = document.querySelector('.reset');
 const score = document.querySelector('.time div');
-// console.log(btnReset, btnTime);
 
 let time = 0;
 active = false;
@@ -11,6 +10,7 @@ const start = () => {
     time++;
     score.textContent = (time / 100).toFixed(2);
 }
+
 const timer = () => {
     if (!active) {
         active = !active

@@ -6,15 +6,12 @@ const App = function () {
 }
 
 
-App.prototype.generateLinks = function (array) {
+App.prototype.generateLinks = (array) => {
     this.websites.forEach((a, i, array) => {
         const url = `https://${a}.pl`;
         this.links.push(url);
     });
 };
-
-
-
 
 let app = new App();
 app.generateLinks(websites);

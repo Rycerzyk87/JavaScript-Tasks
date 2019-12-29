@@ -4,13 +4,13 @@ body{
     width: 100%;
 }
 p{
-    width: 80%;
+    width: 75%;
     margin: 5% auto;
-    padding: 20px;
+    padding: 18px;
     font-family: 'Abril Fatface', cursive;
     font-size: 28px;
     letter-spacing: 2.5px;
-    text-transform: uppercase;
     color: aliceblue;
-    border: 2px solid white;
+    border: 3px solid white;
+    text-transform: capitalize;
 }

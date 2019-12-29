@@ -7,11 +7,6 @@ const typewriter = () => {
     indexText++;
     (indexText === text.length) ? clearInterval(typeInterval) : null;
 }
-// const typewriter = () => {
-//     typeText.textContent += [indexText];
-//     indexText++;
-//     (indexText === text.length) ? clearInterval(typeInterval) : null;
-// }
 
 const typeInterval = setInterval(typewriter, 100);
 

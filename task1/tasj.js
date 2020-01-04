@@ -1,5 +1,5 @@
 const menu = $(".menu a");
-this.websites = ['onet', 'wp', 'facebook'];
+this.websites = ['onet', 'wp', 'facebook', 'google', 'interia'];
 const App = function () {
 
     this.links = [];
@@ -7,15 +7,15 @@ const App = function () {
 
 
 App.prototype.generateLinks = (array) => {
-    this.websites.forEach((a, i, array) => {
-        const url = `https://${a}.pl`;
+    this.websites.forEach((link, i, array) => {
+        const url = `https://${link}.pl`;
         this.links.push(url);
     });
 };
 
 let app = new App();
 app.generateLinks(websites);
-console.log(app.links);
+// console.log(app.links);
 
 for (let i = 0; i < menu.length; i++) {
     menu.eq(i).attr("href", app.links);
